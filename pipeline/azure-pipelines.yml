@@ -25,6 +25,7 @@ jobs:
   cancelTimeoutInMinutes: 1
   pool:
     vmImage: windows-2022
+  runs-on: self-hosted
 
   steps:
   - checkout: self
